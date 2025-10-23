@@ -1,73 +1,78 @@
-# React + TypeScript + Vite
+# Plant Nursery E-Commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimalist web-based e-commerce system for a plant nursery, built with React.
 
-Currently, two official plugins are available:
+## Academic Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was created to comply with requirements for my Final Project, focusing on frontend web development, shopping cart functionality, and user interface design.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Landing Page**: Full-width hero image with company introduction and call-to-action
+- **Product Listing**: Six unique houseplants organized by categories
+- **Shopping Cart**: Full cart management with add, remove, and quantity controls
+- **Responsive Design**: Mobile-friendly, nature-inspired aesthetic
+- **Cart Persistence**: State management using React Context API
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React 18** - UI framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **React Router** - Navigation
+- **Lucide React** - Icons
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Getting Started
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Prerequisites
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Node.js (v16 or higher)
+- npm or yarn
+
+## Project Structure
+
+```
+src/
+├── components/       # Reusable UI components
+├── contexts/        # React context providers
+├── data/           # Mock data
+├── pages/          # Page components
+└── assets/         # Images and static files
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Features Implemented
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Landing Page
+- Hero section with background image
+- Company introduction
+- Navigation to products
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Product Listing
+- 6 unique houseplants with images
+- Categorized display (Tropical, Low-Light, Easy Care)
+- Add to cart functionality
+- Disabled state after adding
+
+### Shopping Cart
+- Item quantity management
+- Price calculations
+- Remove items
+- Continue shopping
+- Checkout placeholder
+
+## Design Principles
+
+- Minimalist, clean layout
+- Nature-inspired color palette
+- Elegant typography (Playfair Display & Inter)
+- Smooth interactions and hover effects
+- Responsive across devices
+
+## MVP Scope
+
+This is a frontend-only implementation. No backend or payment processing is included.
+
+## License
+
+This project is for educational purposes only.
