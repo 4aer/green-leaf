@@ -14,7 +14,7 @@ const CartItem = ({ item }: CartItemProps) => {
   return (
     <Card className="overflow-hidden">
       <div className="flex gap-4 p-4">
-        <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md bg-muted">
+        <div className="h-24 w-24 shrink-0 overflow-hidden rounded-md bg-muted">
           <img
             src={item.image}
             alt={item.name}

@@ -1,10 +1,10 @@
 import { Plant } from '@/contexts/CartContext';
-import monsteraImg from '@/assets/plant-monstera.jpg';
-import snakeImg from '@/assets/plant-snake.jpg';
-import pothosImg from '@/assets/plant-pothos.jpg';
-import succulentImg from '@/assets/plant-succulent-mix.jpg';
-import aloeImg from '@/assets/plant-aloe.jpg';
-import birdImg from '@/assets/plant-bird-of-paradise.jpg';
+import monsteraImg from '../assets/plant-monstera.jpg';
+import snakeImg from '../assets/plant-snake.jpg';
+import pothosImg from '../assets/plant-pothos.jpg';
+import succulentImg from '../assets/plant-succulent-mix.jpg';
+import aloeImg from '../assets/plant-aloe.jpg';
+import birdImg from '../assets/plant-bird-of-paradise.jpg';
 
 export const plants: Plant[] = [
   {
