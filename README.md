@@ -68,7 +68,3 @@ src/
 - Elegant typography (Playfair Display & Inter)
 - Smooth interactions and hover effects
 - Responsive across devices
-
-## MVP Scope
-
-This is a frontend-only implementation. No backend or payment processing is included.
