@@ -72,7 +72,3 @@ src/
 ## MVP Scope
 
 This is a frontend-only implementation. No backend or payment processing is included.
-
-## License
-
-This project is for educational purposes only.
