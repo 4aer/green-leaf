@@ -30,17 +30,6 @@ This project was created to comply with requirements for my Final Project, focus
 - Node.js (v16 or higher)
 - npm or yarn
 
-## Project Structure
-
-```
-src/
-├── components/       # Reusable UI components
-├── contexts/        # React context providers
-├── data/           # Mock data
-├── pages/          # Page components
-└── assets/         # Images and static files
-```
-
 ## Features Implemented
 
 ### Landing Page
