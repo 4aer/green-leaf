@@ -30,19 +30,6 @@ This project was created to comply with requirements for my Final Project, focus
 - Node.js (v16 or higher)
 - npm or yarn
 
-## Features Implemented
-
-### Landing Page
-- Hero section with background image
-- Company introduction
-- Navigation to products
-
-### Product Listing
-- 6 unique houseplants with images
-- Categorized display (Tropical, Low-Light, Easy Care)
-- Add to cart functionality
-- Disabled state after adding
-
 ### Shopping Cart
 - Item quantity management
 - Price calculations
